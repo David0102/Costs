@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './components/pages/Home'
-import Sobre from './components/pages/Sobre'
-import Contato from './components/pages/Contato'
-import NovoProjeto from './components/pages/NovoProjeto'
-import Navbar from './components/layout/Navbar'
-import Footer from './components/layout/Footer'
-import Projetos from './components/pages/Projetos'
+import Home from '../components/pages/Home'
+import Sobre from '../components/pages/Sobre'
+import Contato from '../components/pages/Contato'
+import NovoProjeto from '../components/pages/NovoProjeto'
+import Navbar from '../components/layout/Navbar'
+import Footer from '../components/layout/Footer'
+import Projetos from '../components/pages/Projetos'
 
-import Container from './components/layout/Container'
-import Projeto from './components/pages/Projeto'
+import Container from '../components/layout/Container'
+import Projeto from '../components/pages/Projeto'
 
 function App() {
   return (
